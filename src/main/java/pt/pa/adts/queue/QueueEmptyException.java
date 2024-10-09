@@ -8,10 +8,10 @@ package pt.pa.adts.queue;
 public class QueueEmptyException extends RuntimeException {
 
     public QueueEmptyException() {
-      throw new UnsupportedOperationException("TODO - Must be done by the student");
+      throw new UnsupportedOperationException("There is no more capacity or memory for this element.");
     }
 
     public QueueEmptyException(String message) {
-      throw new UnsupportedOperationException("TODO - Must be done by the student");
+      throw new UnsupportedOperationException(message);
     }
 }
